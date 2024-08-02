@@ -46,8 +46,8 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo 01]: Jhon Pinho, Lucas Lopes, Marlon Silva
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo 01]: Marlon Silva
+    [Grupo 02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
     CLIENTE: Tabela que armazena as informações relativas aos clientes.
