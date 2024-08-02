@@ -136,7 +136,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 	    CONSTRAINT FK_RepresentanteComercial FOREIGN KEY (RepresentanteComercial) REFERENCES REPRESENTANTE_COMERCIAL(RepresentanteID)
 	);
 	
-	-- Relacionamento entre CLIENTE e ORCAMENTOS
+	DROP TABLE IF EXISTS Possui
 	CREATE TABLE Possui (
 	    ClienteID INT,
 	    OrcamentoID INT,
@@ -145,7 +145,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 	    CONSTRAINT FK_Orcamento FOREIGN KEY (OrcamentoID) REFERENCES ORCAMENTOS(OrcamentoID)
 	);
 	
-	-- Relacionamento entre ORCAMENTOS e REPRESENTANTE_COMERCIAL
+	DROP TABLE IF EXISTS Associado
 	CREATE TABLE Associado (
 	    OrcamentoID INT,
 	    RepresentanteID INT,
