@@ -96,7 +96,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
 
 ### 7	MODELO FÍSICO<br>
-	-- Criação da tabela CLIENTE
+	DROP TABLE IF EXISTS CLIENTE
 	CREATE TABLE CLIENTE (
 	    ClienteID INT PRIMARY KEY,
 	    Nome VARCHAR(255) NOT NULL,
@@ -106,14 +106,14 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 	    CPF VARCHAR(20) NOT NULL
 	);
 	
-	-- Criação da tabela REPRESENTANTE_COMERCIAL
+	DROP TABLE IF EXISTS REPRESENTANTE_COMERCIAL
 	CREATE TABLE REPRESENTANTE_COMERCIAL (
 	    RepresentanteID INT PRIMARY KEY,
 	    Nome VARCHAR(255) NOT NULL,
 	    Telefone VARCHAR(20) NOT NULL
 	);
 	
-	-- Criação da tabela ORCAMENTOS
+	DROP TABLE IF EXISTS ORCAMENTOS
 	CREATE TABLE ORCAMENTOS (
 	    OrcamentoID INT PRIMARY KEY,
 	    ValorParcelasPropostas DECIMAL(10, 2) NOT NULL,
