@@ -63,7 +63,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
     ValorParcelasPropostas: Valor das parcelas propostas a partir da negociação;
     ValorProjetoVista: Valor do projeto caso o pagamento seja feito à vista;
     Numero: Número do projeto;
-    Status: Qual a situação atual do projeto (Iniciado, Em execução, Finalizado, Cancelado);
+    Status: Qual a situação atual do projeto (Em Análise, Aprovado, Rejeitado, Cancelado);
     NomeCliente: Nome do cliente ao qual o orçamento está atrelado;
     DataAtualizacaoStatus: Data da última atualização de status do projeto;
     RepresentanteComercial: Nome do representante comercial que é responsável pelo orçamento;
