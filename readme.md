@@ -157,12 +157,44 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) Script das instruções relativas a inclusão de dados 
-	Requisito mínimo: (Script dev conter: Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        OBS
-	1) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
-        2) script deve ser incluso no template em um arquivo no formato .SQL
-
+	INSERT INTO CLIENTE (ClienteID, Nome, Endereco, Email, Telefone, CPF) VALUES 
+	(1, 'João Silva', 'Rua dos Pássaros, 123, Bairro Centro, Município Passa Tempo, Estado MG', 'joao.silva@gmail.com', '99856-2525', '123.456.789-01'),
+	(2, 'Maria Oliveira', 'Avenida Brasil, 456, Bairro Norte, Município Ampére, Estado PR', 'maria.oliveira@gmail.com', '99635-6954', '987.654.321-02'),
+	(3, 'Carlos Pereira', 'Praça Carlos Alberto, 789, Bairro Sul, Município Alto Feliz, Estado Z', 'carlos.pereira@gmail.com', '98563-9898', '159.753.486-03'),
+	(4, 'Luciana Lima', 'Rua Dois, 321, Bairro Leste, Município Alvorada, Estado RS', 'luciana.lima@gmail.com', '99784-5214', '258.456.789-04'),
+	(5, 'Fernando Alves', 'Avenida José Sette, 654, Bairro Oeste, Município Cariacica, Estado ES', 'fernando.alves@gmail.com', '99245-6367', '369.258.147-05'),
+	(6, 'Patrícia Silva', 'Praça das Flores, 987, Bairro Alto, Município Areado, Estado MG', 'patricia.silva@gmail.com', '99200-4118', '456.789.123-06'),
+	(7, 'Roberto Costa', 'Rua Grande, 147, Bairro Baixo, Município Aricanduva, Estado MG', 'roberto.costa@gmail.com', '99745-3562', '654.321.987-07');
+	
+	INSERT INTO REPRESENTANTE_COMERCIAL (RepresentanteID, Nome, Telefone) VALUES 
+	(1, 'Ana Costa', '9898-2532'),
+	(2, 'Luiz Souza', '99978-4515'),
+	(3, 'Juliana Santos', '99625-3247'),
+	(4, 'Marcos Pereira', '99532-7481');
+	
+	INSERT INTO ORCAMENTOS (OrcamentoID, ValorParcelasPropostas, ValorProjetoAVista, Numero, Status, NomeCliente, DataAtualizacaoStatus, RepresentanteComercial, DataDeConfecao, PessoaQueIndicou, TipoDePadraoDeEnergia, GastoMedioMensal, QuantidadePaineisQueOInversorSuporta, QuantidadekWhSugerida, PotenciaMediaMensal, NumeroDeParcelas, EconomiaTotalEm25Anos, AreaMediaDosModulos) VALUES 
+	(1, 12000.00, 10000.00, 123, 'Em Análise', 'João Silva', '2024-07-01', 1, '2024-06-15', 'Carlos Pereira', 'Monofásico', 200.00, 10, 3000.00, 250.00, 12, 5000.00, 50.00),
+	(2, 15000.00, 13000.00, 456, 'Aprovado', 'Maria Oliveira', '2024-07-02', 2, '2024-06-20', 'João Silva', 'Bifásico', 300.00, 12, 4000.00, 350.00, 24, 6000.00, 60.00),
+	(3, 18000.00, 16000.00, 789, 'Rejeitado', 'Carlos Pereira', '2024-07-03', 4, '2024-06-25', 'Maria Oliveira', 'Trifásico', 400.00, 15, 5000.00, 450.00, 36, 7000.00, 70.00),
+	(4, 20000.00, 18000.00, 101, 'Cancelado', 'Luciana Lima', '2024-07-04', 3, '2024-07-01', 'Fernando Alves', 'Bifásico', 500.00, 20, 6000.00, 550.00, 24, 8000.00, 80.00),
+	(5, 22000.00, 20000.00, 202, 'Em Análise', 'Fernando Alves', '2024-07-05', 4, '2024-07-02', 'Luciana Lima', 'Trifásico', 600.00, 25, 7000.00, 650.00, 36, 9000.00, 90.00),
+	(6, 25000.00, 23000.00, 303, 'Aprovado', 'Patrícia Silva', '2024-07-06', 1, '2024-07-03', 'Roberto Costa', 'Monofásico', 700.00, 30, 8000.00, 750.00, 12, 10000.00, 100.00);
+	
+	INSERT INTO Possui (ClienteID, OrcamentoID) VALUES 
+	(1, 1),
+	(2, 2),
+	(3, 3),
+	(4, 4),
+	(5, 5),
+	(6, 6),
+	(7, 6);
+	
+	INSERT INTO Associado (OrcamentoID, RepresentanteID) VALUES 
+	(1, 1),
+	(2, 2),
+	(4, 3),
+	(5, 4),
+	(6, 1);
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Usa template da disciplina disponibilizado no Colab.<br>
