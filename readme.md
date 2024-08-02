@@ -46,7 +46,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Jhon, Lucas, Marlon
+    [Grupo 01]: Jhon Pinho, Lucas Lopes, Marlon Silva
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
