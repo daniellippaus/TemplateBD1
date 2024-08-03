@@ -91,7 +91,8 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
     b) verificação de correspondencia com o modelo conceitual 
     (não serão aceitos modelos que não estejam em conformidade)
 	
-![image](https://github.com/user-attachments/assets/e39ad8a2-1c1a-417c-868c-7e0839884054)
+![image](https://github.com/user-attachments/assets/64b52ff7-04c9-4d93-9943-9d2b666003c4)
+
 
 
 
