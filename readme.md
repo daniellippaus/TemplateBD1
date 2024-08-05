@@ -199,7 +199,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 	(6, 1);
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-CONSULTAS NO COLAB
+CONSULTAS NO COLAB<br>
 Link de acesso: https://colab.research.google.com/drive/1DxJuoav3HSJY_tUWNpsuERWHI5zTq5KM?usp=sharing
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
