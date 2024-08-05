@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Daniel da Silva Lippaus: lippaus18@gmail.com<br>
 Daniel Oliveira Lemos: danielolemos10@gmail.com<br>
 Lorenzzo Gabriel Ramos Doelinger Oliveira: lorenzzooliveira7@gmail.com<br>
-Rodolfo Müller do Amaral: amaralrodolfo38@gmail.com<br>
+Rodolfo Müller do Amaral: amaralrodolfo@yahoo.com<br>
 <br>
 
 
