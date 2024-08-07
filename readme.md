@@ -23,8 +23,8 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa SERVTEC Energia Solar precisa inicialmente dos seguintes relatórios sobre orçamentos, projetos e representantes:
-* Relatório que mostre a quantidade de orçamentos aprovados em determinada época do ano.
-* Relatório que mostre qual a região com mais pedidos de orçamento.
+* Relatório que mostre a quantidade de orçamentos confeccionados em determinada época do ano e os agrupe de acordo com seu status atual.
+* Relatório que mostre qual o estado com mais pedidos de orçamento.
 * Relatório que mostre quantos projetos são feitos por semestre.
 * Relatório que mostre a quantidade de projetos aprovados, reprovados e arquivados por semestre.
 * Relatório que mostre qual representante mais fez orçamentos por semestre.
@@ -162,7 +162,7 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 	INSERT INTO CLIENTE (ClienteID, Nome, Endereco, Email, Telefone, CPF) VALUES 
 	(1, 'João Silva', 'Rua dos Pássaros, 123, Bairro Centro, Município Passa Tempo, Estado MG', 'joao.silva@gmail.com', '99856-2525', '123.456.789-01'),
 	(2, 'Maria Oliveira', 'Avenida Brasil, 456, Bairro Norte, Município Ampére, Estado PR', 'maria.oliveira@gmail.com', '99635-6954', '987.654.321-02'),
-	(3, 'Carlos Pereira', 'Praça Carlos Alberto, 789, Bairro Sul, Município Alto Feliz, Estado Z', 'carlos.pereira@gmail.com', '98563-9898', '159.753.486-03'),
+	(3, 'Carlos Pereira', 'Praça Carlos Alberto, 789, Bairro Sul, Município Alto Feliz, Estado ES', 'carlos.pereira@gmail.com', '98563-9898', '159.753.486-03'),
 	(4, 'Luciana Lima', 'Rua Dois, 321, Bairro Leste, Município Alvorada, Estado RS', 'luciana.lima@gmail.com', '99784-5214', '258.456.789-04'),
 	(5, 'Fernando Alves', 'Avenida José Sette, 654, Bairro Oeste, Município Cariacica, Estado ES', 'fernando.alves@gmail.com', '99245-6367', '369.258.147-05'),
 	(6, 'Patrícia Silva', 'Praça das Flores, 987, Bairro Alto, Município Areado, Estado MG', 'patricia.silva@gmail.com', '99200-4118', '456.789.123-06'),
