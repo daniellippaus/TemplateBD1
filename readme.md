@@ -73,13 +73,15 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
     DatadeConfeccao: Data em que o orçamento foi feito;
     PessoaqueIndicou: Nome da pessoa que indicou a empresa para fazer o projeto;
     TipodePadraodeEnergia: Tipo de padrão de energia do cliente;
-    GastoMedioMensal: Gasto médio mensal do cliente para poder dimensionar o aparelho de energia solar;
+
     QuantidadedePaineisqueoInversorSuporta: Quantidade de painéis que o inversor suporta nessa instalação;
     QuantidadekWhSugerida: Qual a quantidade de kWh sugerida para a instalação de acordo com os dados fornecidos pelo cliente;
     PotenciaMediaMensal: Qual a potência média mensal fornecida pelo aparelho;
     NumerodeParcelas: Número de parcelas estabelecidas para o orçamento;
     EconomiaTotalem25Anos: Qual a economia total que o cliente terá em 25 anos se colocar as placas solares;
-    AreaMediadosModulos: Qual a área média de ocupação dos módulos da instalação.
+    AreaMediadosModulos: Qual a área média de ocupação dos módulos da instalação;
+    ClienteID: fk do cliente;
+    RepresentanteID: fk do representante.
 
     REPRESENTANTE COMERCIAL:
     RepresentanteID (chave primária): Identificador único do representante comercial;
